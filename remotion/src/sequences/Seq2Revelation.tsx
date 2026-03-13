@@ -165,7 +165,7 @@ export const Seq2Revelation: React.FC = () => {
           textAlign: "center",
         }}
       >
-        La Cérémonie Congolaise
+        Cérémonie Culturelle Congolaise
       </div>
 
       {/* Tagline */}
@@ -182,7 +182,7 @@ export const Seq2Revelation: React.FC = () => {
           textAlign: "center",
         }}
       >
-        qui célèbre l'excellence
+        Musique · Mode · Médias · Arts · Humour
       </div>
 
       {/* Decoration line */}

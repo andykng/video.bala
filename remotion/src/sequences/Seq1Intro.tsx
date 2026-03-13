@@ -79,18 +79,18 @@ export const Seq1Intro: React.FC = () => {
     extrapolateRight: "clamp",
   });
 
-  // Gold divider
-  const lineScale = interpolate(frame, [68, 82], [0, 1], {
+  // Gold divider — after AWARDS finishes (~frame 72)
+  const lineScale = interpolate(frame, [74, 88], [0, 1], {
     extrapolateLeft: "clamp",
     extrapolateRight: "clamp",
   });
 
-  // "S'ÉVEILLE"
-  const sOpacity = interpolate(frame, [74, 88], [0, 1], {
+  // "2025"
+  const sOpacity = interpolate(frame, [86, 100], [0, 1], {
     extrapolateLeft: "clamp",
     extrapolateRight: "clamp",
   });
-  const sY = interpolate(frame, [74, 88], [40, 0], {
+  const sY = interpolate(frame, [86, 100], [40, 0], {
     extrapolateLeft: "clamp",
     extrapolateRight: "clamp",
   });
@@ -101,9 +101,9 @@ export const Seq1Intro: React.FC = () => {
   const glitchY2 = ((frame * 13) % 40) + 50;
 
   // Word 2 starts after word 1 finishes
-  // "L'EXCELLENCE" = 12 chars × 3 frames = 36 frames
-  const word1Len = "L'EXCELLENCE".length;
-  const word2Start = 18 + word1Len * CHAR_DELAY + 4;
+  // "BALA BALA" = 9 chars (space included) × 3 frames = 27 frames
+  const word1Len = "BALA BALA".length;
+  const word2Start = 14 + word1Len * CHAR_DELAY + 3;
 
   return (
     <AbsoluteFill
@@ -134,18 +134,18 @@ export const Seq1Intro: React.FC = () => {
       {/* Main words — char by char */}
       <div style={{ textAlign: "center" }}>
         <CharReveal
-          text="L'EXCELLENCE"
-          startFrame={18}
-          size={108}
-          color={C.blanc}
-          letterSpacing={4}
+          text="BALA BALA"
+          startFrame={14}
+          size={158}
+          color={C.or2}
+          letterSpacing={10}
         />
         <CharReveal
-          text="CONGOLAISE"
+          text="AWARDS"
           startFrame={word2Start}
-          size={108}
+          size={178}
           color={C.blanc}
-          letterSpacing={4}
+          letterSpacing={6}
         />
       </div>
 
@@ -161,21 +161,21 @@ export const Seq1Intro: React.FC = () => {
         }}
       />
 
-      {/* EN LUMIÈRE */}
+      {/* 2025 */}
       <div
         style={{
           opacity: sOpacity,
           transform: `translateY(${sY}px)`,
           fontFamily: FONT,
-          fontSize: 72,
+          fontSize: 80,
           fontWeight: 900,
-          color: C.rouge,
-          letterSpacing: 14,
+          color: C.or,
+          letterSpacing: 22,
           textTransform: "uppercase",
-          marginTop: 26,
+          marginTop: 22,
         }}
       >
-        EN LUMIÈRE
+        2 0 2 5
       </div>
 
       {/* Glitch overlays */}
