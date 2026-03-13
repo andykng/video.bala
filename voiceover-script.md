@@ -7,9 +7,9 @@
 
 ## Texte intégral (30 s)
 
-> Ce soir… la scène congolaise s'éveille.
+> L'excellence congolaise… en lumière.
 >
-> Les **Bala Bala Awards** — la cérémonie qui célèbre l'excellence ! Musique, mode, médias, DJs, humour, arts… toute la culture congolaise réunie sur une seule scène !
+> Les **Bala Bala Awards** — la cérémonie qui célèbre l'excellence ! Révélation de l'année, Étoiles, Best Women, Meilleur Beat, Tam-Tam, DJs, Mode, Médias en ligne… toute la culture congolaise sur une seule scène !
 >
 > Rendez-vous **le 1er Mars** au Centre Culturel Zola, à Brazzaville. Une nuit de gloire, inoubliable !
 >
@@ -23,8 +23,8 @@
 
 | Timecode | Texte | Ton |
 |----------|-------|-----|
-| **0–4 s** | *"Ce soir… la scène congolaise s'éveille."* | Mystérieux, souffle court, montée d'énergie |
-| **4–10 s** | *"Les Bala Bala Awards — la cérémonie qui célèbre l'excellence ! Musique, mode, médias, DJs, humour, arts… toute la culture congolaise réunie sur une seule scène !"* | Explosif, award show announcer, très dynamique |
+| **0–4 s** | *"L'excellence congolaise… en lumière."* | Mystérieux, voix posée qui monte |
+| **4–10 s** | *"Les Bala Bala Awards — la cérémonie qui célèbre l'excellence ! Révélation de l'année, Étoiles, Best Women, Meilleur Beat, Tam-Tam, DJs, Mode, Médias en ligne… toute la culture congolaise sur une seule scène !"* | Explosif, award show announcer, très dynamique |
 | **10–16 s** | *"Rendez-vous le 1er Mars au Centre Culturel Zola, à Brazzaville. Une nuit de gloire, inoubliable !"* | Cinématique, dramatique, solennité festive |
 | **16–24 s** | *"Réservez vos places dès maintenant sur tickets point cé gé — la billetterie officielle du Congo Brazzaville. Paiement Airtel Money, MTN Money. QR code sécurisé, livraison instantanée. À partir de deux mille francs seulement !"* | Informatif, enthousiaste, rassurant, clair |
 | **24–30 s** | *"Ne ratez pas ça ! Rendez-vous sur tickets point cé gé… et vivez les Bala Bala Awards 2025 !"* | Énergie maximale, urgent, festif, cri de joie |

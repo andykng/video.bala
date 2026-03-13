@@ -101,7 +101,8 @@ export const Seq1Intro: React.FC = () => {
   const glitchY2 = ((frame * 13) % 40) + 50;
 
   // Word 2 starts after word 1 finishes
-  const word1Len = "LA SCÈNE".length;
+  // "L'EXCELLENCE" = 12 chars × 3 frames = 36 frames
+  const word1Len = "L'EXCELLENCE".length;
   const word2Start = 18 + word1Len * CHAR_DELAY + 4;
 
   return (
@@ -133,18 +134,18 @@ export const Seq1Intro: React.FC = () => {
       {/* Main words — char by char */}
       <div style={{ textAlign: "center" }}>
         <CharReveal
-          text="LA SCÈNE"
+          text="L'EXCELLENCE"
           startFrame={18}
-          size={116}
+          size={108}
           color={C.blanc}
-          letterSpacing={6}
+          letterSpacing={4}
         />
         <CharReveal
           text="CONGOLAISE"
           startFrame={word2Start}
-          size={116}
+          size={108}
           color={C.blanc}
-          letterSpacing={6}
+          letterSpacing={4}
         />
       </div>
 
@@ -160,21 +161,21 @@ export const Seq1Intro: React.FC = () => {
         }}
       />
 
-      {/* S'ÉVEILLE */}
+      {/* EN LUMIÈRE */}
       <div
         style={{
           opacity: sOpacity,
           transform: `translateY(${sY}px)`,
           fontFamily: FONT,
-          fontSize: 76,
+          fontSize: 72,
           fontWeight: 900,
           color: C.rouge,
-          letterSpacing: 16,
+          letterSpacing: 14,
           textTransform: "uppercase",
           marginTop: 26,
         }}
       >
-        S'ÉVEILLE
+        EN LUMIÈRE
       </div>
 
       {/* Glitch overlays */}

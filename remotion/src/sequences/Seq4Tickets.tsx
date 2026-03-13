@@ -2,7 +2,7 @@
  * Seq4 — Tickets.CG Spotlight (16 – 24 s | 240 frames)
  *
  * • Red scan line sweeps top → bottom (frame 0–32)
- * • "🎟️ VOS BILLETS SUR" fades up (frame 24–40)
+ * • "🎟️ VOS TICKETS SUR" fades up (frame 24–40)
  * • TICKETS.CG logo springs in (frame 30–55)
  * • Border line reveals (frame 60–78)
  * • Features slide in from left, staggered (frame 62 →, +18/item)
@@ -114,7 +114,7 @@ export const Seq4Tickets: React.FC = () => {
         }}
       />
 
-      {/* ── "VOS BILLETS SUR" */}
+      {/* ── "VOS TICKETS SUR" */}
       <div
         style={{
           fontFamily: FONT,
@@ -127,7 +127,7 @@ export const Seq4Tickets: React.FC = () => {
           marginBottom: 22,
         }}
       >
-        🎟️ VOS BILLETS SUR
+        🎟️ VOS TICKETS SUR
       </div>
 
       {/* ── TICKETS.CG logo */}

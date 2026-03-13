@@ -20,12 +20,14 @@ import { C, FONT } from "../constants";
 import { seqFade } from "../utils/seqFade";
 
 const CATEGORIES = [
-  "🎵 Musique",
-  "👗 Mode",
-  "📱 Médias",
+  "🏆 Révélation",
+  "⭐ Étoiles",
+  "👩‍🎤 Best Women",
+  "🎵 Meilleur Beat",
+  "🥁 Tam-Tam",
   "🎧 DJs",
-  "😂 Humour",
-  "🎨 Arts",
+  "👗 Mode",
+  "📱 Médias en ligne",
 ];
 
 export const Seq2Revelation: React.FC = () => {
